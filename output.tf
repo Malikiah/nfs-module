@@ -5,3 +5,7 @@ output "nfs_nodes" {
 output "nfs_domain" {
     value = var.nfs_domain
 }
+
+output "nfs_path" {
+    value = var.nfs_path
+}

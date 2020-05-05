@@ -18,6 +18,12 @@ variable "nfs_volume" {
   default = ""
 }
 
+variable "nfs_path" {
+  description = ""
+  default = "/data/nfs4" 
+}
+
+
 
 // DigitalOcean Variables \\
 
